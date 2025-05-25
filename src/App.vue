@@ -41,10 +41,10 @@
       </v-toolbar-items>
     </v-toolbar>
 
+
     <v-content>
       <router-view></router-view>
     </v-content>
-
   </v-app>
 </template>
 
@@ -52,7 +52,7 @@
 export default {
   data () {
     return {
-      drawer: true,
+      drawer: false,
       links: [
         {title: 'Login', icon: 'lock', url: '/login'},
         {title: 'Registration', icon: 'face', url: '/registration'},
